@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 05:17:21</sys_created_on>
+        <sys_id>be50443893720610970970718bba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideOAuthAccessTokenResponse.getBody</sys_name>
+        <sys_package display_value="Demohub Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_update_name>sys_scope_privilege_be50443893720610970970718bba10a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 05:17:21</sys_updated_on>
+        <target_name>GlideOAuthAccessTokenResponse.getBody</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

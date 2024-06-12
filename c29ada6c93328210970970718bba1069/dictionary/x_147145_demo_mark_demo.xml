@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="385c56a893728210970970718bba10c3" label="Demo" max_length="40" name="x_147145_demo_mark_demo" type="collection">
+        <element label="Version" max_length="32" name="version" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Repository URL" max_length="256" name="repository_url" read_only="true" type="url"/>
+    </element>
+</database>
