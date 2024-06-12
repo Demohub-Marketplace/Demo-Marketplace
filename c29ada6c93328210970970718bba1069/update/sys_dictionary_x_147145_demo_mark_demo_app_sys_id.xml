@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="repository_url" table="x_147145_demo_mark_demo">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="app_sys_id" table="x_147145_demo_mark_demo">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Repository URL</column_label>
+        <column_label>App Sys ID</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>repository_url</element>
+        <element>app_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -34,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>256</max_length>
+        <max_length>32</max_length>
         <name>x_147145_demo_mark_demo</name>
         <next_element/>
         <primary>false</primary>
@@ -51,17 +51,17 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-11 22:02:18</sys_created_on>
-        <sys_name>Repository URL</sys_name>
+        <sys_created_on>2024-06-12 18:41:02</sys_created_on>
+        <sys_name>App Sys ID</sys_name>
         <sys_package display_value="Demohub Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
-        <sys_update_name>sys_dictionary_x_147145_demo_mark_demo_repository_url</sys_update_name>
+        <sys_update_name>sys_dictionary_x_147145_demo_mark_demo_app_sys_id</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-12 17:36:52</sys_updated_on>
+        <sys_updated_on>2024-06-12 18:41:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
-        <unique>false</unique>
+        <unique>true</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
