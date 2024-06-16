@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>update_demo</action_name>
+        <action_name>rollback_demo</action_name>
         <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.installed == true &amp;&amp; current.version != current.latest_version</condition>
+        <condition>current.installed == true &amp;&amp; current.version == current.latest_version &amp;&amp; current.previous_version != ''</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -27,7 +27,7 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Update Demo</name>
+        <name>Rollback to Previous Version</name>
         <onclick/>
         <order>101</order>
         <script><![CDATA[(function() {
@@ -35,13 +35,13 @@
 	try {
 		var inputs = {
 			'demo': current.name,
-			'version': current.latest_version
+			'version': current.previous_version
 		};
 
 		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
 		sn_fd.FlowAPI.getRunner().subflow('x_147145_demo_mark.dm_apply_changes_demo_app').inBackground().withInputs(inputs).run();
 		
-		gs.addInfoMessage('Updating ' + current.name + ' to version ' + current.latest_version + '. Please refer to the \'Status\' field to get the current installation status.');
+		gs.addInfoMessage('Rolling back ' + current.name + ' to previous version ' + current.previous_version + '. Please refer to the \'Status\' field in the \'Installation Status\' tab to get the current installation status.');
 		action.setRedirectURL(current);
 	} catch (ex) {
 		var message = ex.getMessage();
@@ -55,19 +55,19 @@
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-16 18:24:51</sys_created_on>
+        <sys_created_on>2024-06-16 21:47:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2e9a5f0a933e4210970970718bba104e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Update Demo</sys_name>
+        <sys_id>2c5988d293b28210970970718bba101f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Rollback to Previous Version</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demohub Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
-        <sys_update_name>sys_ui_action_2e9a5f0a933e4210970970718bba104e</sys_update_name>
+        <sys_update_name>sys_ui_action_2c5988d293b28210970970718bba101f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-16 21:16:54</sys_updated_on>
+        <sys_updated_on>2024-06-16 21:50:22</sys_updated_on>
         <table>x_147145_demo_mark_demo</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
