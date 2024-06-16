@@ -6,24 +6,24 @@
         <device_type>browser</device_type>
         <hint>Marketplace to install ServiceNow demos</hint>
         <name/>
-        <order/>
-        <roles>x_147145_demo_mark.admin</roles>
+        <order>25</order>
+        <roles>x_147145_demo_mark.admin,x_147145_awa_demo.user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-11 22:01:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>937c96a893728210970970718bba10be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Demo Marketplace</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demohub Marketplace</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Demo Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
+        <sys_package display_value="Demohub Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Demo Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_update_name>sys_app_application_937c96a893728210970970718bba10be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-11 22:01:02</sys_updated_on>
-        <title>Demo Marketplace</title>
+        <sys_updated_on>2024-06-16 17:19:02</sys_updated_on>
+        <title>Demohub Marketplace</title>
         <view_name/>
     </sys_app_application>
 </record_update>
