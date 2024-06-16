@@ -6,9 +6,9 @@
         <sys_id>915c96a893728210970970718bba10ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_147145_demo_mark_demo.x_147145_demo_mark.admin</sys_name>
-        <sys_package display_value="Demo Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
+        <sys_package display_value="Demohub Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Demo Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_security_acl display_value="x_147145_demo_mark_demo">195c96a893728210970970718bba10a7</sys_security_acl>
         <sys_update_name>sys_security_acl_role_915c96a893728210970970718bba10ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

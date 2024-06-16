@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b3b7f67493764610970970718bba10dd" label="Versions" max_length="40" name="x_147145_demo_mark_versions" type="collection">
+        <element label="Zipball URL" max_length="256" name="zipball_url" read_only="true" type="string"/>
+        <element label="SHA" max_length="64" name="sha" type="string"/>
+        <element label="Version" max_length="16" name="version" type="string"/>
+        <element label="Demo" max_length="32" name="demo" read_only="true" reference="x_147145_demo_mark_demo" type="reference"/>
+        <index name="index">
+            <element name="demo"/>
+        </index>
+    </element>
+</database>

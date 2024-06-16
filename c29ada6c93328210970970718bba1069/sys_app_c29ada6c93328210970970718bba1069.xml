@@ -2,7 +2,7 @@
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <can_edit_in_studio>true</can_edit_in_studio>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
         <ide_created>GAC</ide_created>
@@ -15,7 +15,7 @@
         <license_model>none</license_model>
         <logo>da9a56ac93328210970970718bba103c</logo>
         <menu/>
-        <name>Demo Marketplace</name>
+        <name>Demohub Marketplace</name>
         <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -32,16 +32,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-11 21:52:45</sys_created_on>
         <sys_id>c29ada6c93328210970970718bba1069</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-11 21:52:46</sys_updated_on>
+        <sys_updated_on>2024-06-16 17:23:54</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <user_role/>
+        <user_role display_value="x_147145_demo_mark.user" name="x_147145_demo_mark.user">aa9903c693ba4210970970718bba106e</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>
+        <x_snc_devtools_documentation_url/>
+        <x_snc_devtools_maintainer/>
+        <x_snc_devtools_maintainer_email/>
+        <x_snc_devtools_repo_url/>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=c29ada6c93328210970970718bba1069"/>
     <sys_attachment action="INSERT_OR_UPDATE">

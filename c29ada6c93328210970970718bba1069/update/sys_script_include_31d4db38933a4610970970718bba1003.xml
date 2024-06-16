@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_147145_demo_mark.DM_GitHubUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Utility functions for interacting with GitHub data.</description>
+        <name>DM_GitHubUtils</name>
+        <script><![CDATA[var DM_GitHubUtils = Class.create();
+DM_GitHubUtils.prototype = {
+    initialize: function() {
+    },
+
+	parseAppSysId: function(inputString) {
+		// Regular expression to match a 32-character hexadecimal string
+        var sysIdPattern = /[0-9a-fA-F]{32}/;
+        var match = inputString.match(sysIdPattern);
+        
+        if (match) {
+            return inputString;  // Return the matched sys_id
+        } else {
+            return null;  // Return null if no match is found
+        }
+	},
+
+	checkAppInstall: function(sysId) {
+		// Query sys_app table to see if an app is installed
+		var appGR = new GlideRecord('sys_app');
+		if (appGR.get(sysId)) {
+			return true;
+		} else {
+			return false;
+		}
+	},
+
+    type: 'DM_GitHubUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 20:57:59</sys_created_on>
+        <sys_id>31d4db38933a4610970970718bba1003</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>DM_GitHubUtils</sys_name>
+        <sys_package display_value="Demohub Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_update_name>sys_script_include_31d4db38933a4610970970718bba1003</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 21:45:43</sys_updated_on>
+    </sys_script_include>
+</record_update>
