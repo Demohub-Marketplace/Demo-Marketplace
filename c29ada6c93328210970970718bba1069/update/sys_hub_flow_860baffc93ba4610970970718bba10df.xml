@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=412858000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=414548000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="">{}</category>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>dm_install_demo_app</internal_name>
-        <label_cache>[{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.repository_url","label":"3 - Look Up Record➛Demo Record➛Repository URL","reference":"","reference_display":"Repository URL","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["repo_url"]},"attributes":null},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.installed","label":"3 - Look Up Record➛Demo Record➛Installed","reference":"","reference_display":"Installed","type":"boolean","base_type":"boolean","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"ee1d6269-c21b-4ee4-803b-ca4d7e373b55":["condition"]},"attributes":null},{"name":"subflow.demo","label":"Input➛Demo","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a":["test_suite_name"],"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["repo_url"],"e46def77-b020-436a-b271-54d3ab95b99b":["conditions"]},"attributes":null},{"name":"72e498e4-c7c3-4ce9-9219-f19c0afb6879.status_label","label":"6 - Import Application with Repo URL➛Status Label","reference":"","reference_display":"Status Label","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":null},{"name":"d82ad407-3999-4081-a4a7-8d46a0680c2b.Record.value","label":"5 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a":["instance_url"],"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["instance_url"],"d2501a00-750f-49a4-ad88-2cd117bdc59c":["instance_url"],"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e":["instance_url"]},"attributes":null},{"name":"e46def77-b020-436a-b271-54d3ab95b99b.status","label":"1 - Look Up Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"759bb772-7070-4b14-88a4-565e838ba611":["condition"]},"attributes":null},{"name":"subflow.version","label":"Input➛Version","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["version"],"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["branch_name"],"7a0fc018-6849-491c-b271-f819f06bdba0":["version"],"e46def77-b020-436a-b271-54d3ab95b99b":["conditions"],"55655745-1802-4947-ad55-861550f4996e":["values","version"]},"attributes":null},{"name":"subflow.name","label":"Input➛Name","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":null},{"name":"e46def77-b020-436a-b271-54d3ab95b99b.Record.demo.name","label":"1 - Look Up Record➛Versions Record➛Demo➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"629b29a1-710c-4b75-9620-4af1a1476c1d":["conditions"]},"attributes":null},{"name":"72e498e4-c7c3-4ce9-9219-f19c0afb6879.progress_id","label":"6 - Import Application with Repo URL➛Progress Id","reference":"","reference_display":"Progress Id","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"d2501a00-750f-49a4-ad88-2cd117bdc59c":["progress_id"]},"attributes":null},{"name":"d2501a00-750f-49a4-ad88-2cd117bdc59c.status_label","label":"9 - Get Execution Tracker Progress➛Status Label","reference":"","reference_display":"Status Label","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"196d392c-b3ef-433c-a99d-52d9884ab67a":["status-0"],"3d0a0fd4-0f10-4fb7-bb1f-127142b6b9bd":["condition"],"c10b2ec4-b7a6-4777-a24d-81d3a6bbc19b":["condition"],"aa5b5710-35c4-4b9e-bb8e-b129e595051a":["status"],"edb95030-9412-469a-a258-33f678b511a4":["condition"],"9706d3ec-5b4d-4c44-b936-028e9d32c560":["condition"],"a5ae7e1e-132d-492f-977a-28e87f11b04f":["condition"]},"attributes":null},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record","label":"3 - Look Up Record➛Demo Record","reference":"x_147145_demo_mark_demo","reference_display":"Demo","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["record"],"7cf8c1e3-755e-4b8a-887a-961ad07c7789":["record"],"aa5b5710-35c4-4b9e-bb8e-b129e595051a":["record"],"7a0fc018-6849-491c-b271-f819f06bdba0":["record"],"55655745-1802-4947-ad55-861550f4996e":["record"],"076ca532-238b-4573-b1f7-ff57f8f6ef20":["record"],"dca56d51-a3d3-4b6e-a584-9cf2a65ace38":["record"]},"attributes":null},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.version","label":"3 - Look Up Record➛Demo Record➛Installed Version","reference":"","reference_display":"Installed Version","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["previous_version"],"7a0fc018-6849-491c-b271-f819f06bdba0":["previous_version"],"55655745-1802-4947-ad55-861550f4996e":["previous_version"]},"attributes":null},{"name":"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a.progress_id","label":"15 - Start ATF Suite With Name➛Progress Id","reference":"","reference_display":"Progress Id","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e":["progress_id"]},"attributes":null},{"name":"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label","label":"17 - Get Execution Tracker Progress➛Status Label","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"a762f429-e584-4a11-88c6-8471588eebcd":["condition"],"076ca532-238b-4573-b1f7-ff57f8f6ef20":["test_status"]},"attributes":null}]</label_cache>
+        <label_cache>[{"name":"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label","label":"18 - Get Execution Tracker Progress➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","usedInstances":{"076ca532-238b-4573-b1f7-ff57f8f6ef20":["test_status"],"a762f429-e584-4a11-88c6-8471588eebcd":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d4e47a49-950f-4026-b9be-8a55ff5c8ca5"}},{"name":"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a.progress_id","label":"15 - Start ATF Suite With Name➛Progress Id","reference_display":"Progress Id","type":"string","base_type":"string","usedInstances":{"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e":["progress_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a969b8d6-c866-4218-b506-651af604e431"}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.version","label":"3 - Look Up Record➛Demo Record➛Installed Version","reference":"","reference_display":"Installed Version","type":"string","base_type":"string","parent_table_name":"x_147145_demo_mark_demo","column_name":"version","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["previous_version"],"55655745-1802-4947-ad55-861550f4996e":["previous_version"],"7a0fc018-6849-491c-b271-f819f06bdba0":["previous_version"]}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record","label":"3 - Look Up Record➛Demo Record","reference":"x_147145_demo_mark_demo","reference_display":"Demo","type":"reference","base_type":"reference","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["record"],"7cf8c1e3-755e-4b8a-887a-961ad07c7789":["record"],"aa5b5710-35c4-4b9e-bb8e-b129e595051a":["record"],"55655745-1802-4947-ad55-861550f4996e":["record"],"dca56d51-a3d3-4b6e-a584-9cf2a65ace38":["record"],"7a0fc018-6849-491c-b271-f819f06bdba0":["record"],"076ca532-238b-4573-b1f7-ff57f8f6ef20":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2501a00-750f-49a4-ad88-2cd117bdc59c.status_label","label":"9 - Get Execution Tracker Progress➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","usedInstances":{"196d392c-b3ef-433c-a99d-52d9884ab67a":["status-0"],"3d0a0fd4-0f10-4fb7-bb1f-127142b6b9bd":["condition"],"c10b2ec4-b7a6-4777-a24d-81d3a6bbc19b":["condition"],"aa5b5710-35c4-4b9e-bb8e-b129e595051a":["status"],"edb95030-9412-469a-a258-33f678b511a4":["condition"],"9706d3ec-5b4d-4c44-b936-028e9d32c560":["condition"],"a5ae7e1e-132d-492f-977a-28e87f11b04f":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d4e47a49-950f-4026-b9be-8a55ff5c8ca5"}},{"name":"72e498e4-c7c3-4ce9-9219-f19c0afb6879.progress_id","label":"6 - Import Application with Repo URL➛Progress Id","reference_display":"Progress Id","type":"string","base_type":"string","usedInstances":{"d2501a00-750f-49a4-ad88-2cd117bdc59c":["progress_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5de9ba0b-7710-4cf1-8c84-5c4068e048d6"}},{"name":"e46def77-b020-436a-b271-54d3ab95b99b.Record.demo.name","label":"1 - Look Up Record➛Versions Record➛Demo➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","usedInstances":{"629b29a1-710c-4b75-9620-4af1a1476c1d":["conditions"]}},{"name":"subflow.name","label":"Input➛Name","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{}},{"name":"subflow.version","label":"Input➛Version","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["version"],"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["branch_name"],"e46def77-b020-436a-b271-54d3ab95b99b":["conditions"],"55655745-1802-4947-ad55-861550f4996e":["values","version"],"7a0fc018-6849-491c-b271-f819f06bdba0":["version"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6754c1b8-7ed3-471d-be8c-56eb8e2f6e70","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"e46def77-b020-436a-b271-54d3ab95b99b.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"759bb772-7070-4b14-88a4-565e838ba611":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"d82ad407-3999-4081-a4a7-8d46a0680c2b.Record.value","label":"5 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["instance_url"],"d2501a00-750f-49a4-ad88-2cd117bdc59c":["instance_url"],"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a":["instance_url"],"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e":["instance_url"]}},{"name":"72e498e4-c7c3-4ce9-9219-f19c0afb6879.status_label","label":"6 - Import Application with Repo URL➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","usedInstances":{},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ed8d4ae9-9299-4703-8951-363e2a6e623b"}},{"name":"subflow.demo","label":"Input➛Demo","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["repo_url"],"e46def77-b020-436a-b271-54d3ab95b99b":["conditions"],"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a":["test_suite_name"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"552c3b63-f533-4bee-9cb5-3bcdd77f787a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.installed","label":"3 - Look Up Record➛Demo Record➛Installed","reference":"","reference_display":"Installed","type":"boolean","base_type":"boolean","usedInstances":{"ee1d6269-c21b-4ee4-803b-ca4d7e373b55":["condition"]}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.repository_url","label":"3 - Look Up Record➛Demo Record➛Repository URL","reference":"","reference_display":"Repository URL","type":"string","base_type":"string","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["repo_url"]}}]</label_cache>
         <master_snapshot>d7f26c82933a0210970970718bba109c</master_snapshot>
         <name>DM Install Demo App</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>860baffc93ba4610970970718bba10df</sys_id>
-        <sys_mod_count>132</sys_mod_count>
+        <sys_mod_count>136</sys_mod_count>
         <sys_name>DM Install Demo App</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demohub Marketplace" source="x_147145_demo_mark">c29ada6c93328210970970718bba1069</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_update_name>sys_hub_flow_860baffc93ba4610970970718bba10df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:26:39</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:32:00</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=860baffc93ba4610970970718bba10df"/>
@@ -319,7 +319,7 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=256aa8c2937a0210970970718bba109d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=860baffc93ba4610970970718bba10df"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=860baffc93ba4610970970718bba10df^sys_idNOT IN075dd3ce933e4210970970718bba10d7,0d5c8862937ec210970970718bba10d4,1dd6d02e93bec210970970718bba1075,4f8b80c293760210970970718bba105a,53f6d82e93bec210970970718bba103b,6f51544e93760210970970718bba10db,9bf4680a933a0210970970718bba108f,ac1ee48a937a0210970970718bba1080,b6ebeb7493fa4610970970718bba1063,db31504e93760210970970718bba10be"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=860baffc93ba4610970970718bba10df^sys_idNOT IN075dd3ce933e4210970970718bba10d7,0d5c8862937ec210970970718bba10d4,4f8b80c293760210970970718bba105a,6d671c6e93bec210970970718bba10c8,6f51544e93760210970970718bba10db,9bf4680a933a0210970970718bba108f,ac1ee48a937a0210970970718bba1080,b6ebeb7493fa4610970970718bba1063,db31504e93760210970970718bba10be,e5671c6e93bec210970970718bba10d0"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -336,10 +336,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 18:35:21</sys_created_on>
         <sys_id>075dd3ce933e4210970970718bba10d7</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:32:00</sys_updated_on>
         <ui_id>7a0fc018-6849-491c-b271-f819f06bdba0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=075dd3ce933e4210970970718bba10d7"/>
@@ -412,10 +412,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-17 16:39:01</sys_created_on>
         <sys_id>0d5c8862937ec210970970718bba10d4</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:32:00</sys_updated_on>
         <ui_id>c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d5c8862937ec210970970718bba10d4"/>
@@ -474,31 +474,6 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d5c8862937ec210970970718bba10d4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Get Execution Tracker Progress">ce5cf2b877433300d4bdaeca781061bc</action_type>
-        <action_type_parent/>
-        <attributes/>
-        <comment/>
-        <display_text/>
-        <flow display_value="DM Install Demo App">860baffc93ba4610970970718bba10df</flow>
-        <generation_source/>
-        <order>17</order>
-        <parent_ui_id>a762f429-e584-4a11-88c6-8471588eebcd</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-17 17:24:55</sys_created_on>
-        <sys_id>1dd6d02e93bec210970970718bba1075</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:24:55</sys_updated_on>
-        <ui_id>6ddc1ecf-71d4-4a64-b59a-7d30be928d2e</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=1dd6d02e93bec210970970718bba1075"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_ce5cf2b877433300d4bdaeca781061bc^id=1dd6d02e93bec210970970718bba1075"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=1dd6d02e93bec210970970718bba1075"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1dd6d02e93bec210970970718bba1075"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
@@ -513,10 +488,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 03:18:40</sys_created_on>
         <sys_id>4f8b80c293760210970970718bba105a</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:47</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>629b29a1-710c-4b75-9620-4af1a1476c1d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4f8b80c293760210970970718bba105a"/>
@@ -589,8 +564,9 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4f8b80c293760210970970718bba105a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent/>
+        <action_inputs/>
+        <action_type display_value="Get Execution Tracker Progress">ce5cf2b877433300d4bdaeca781061bc</action_type>
+        <action_type_parent display_value="Get Execution Tracker Progress">f8073ef477433300d4bdaeca78106176</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
@@ -600,18 +576,68 @@
         <parent_ui_id>a762f429-e584-4a11-88c6-8471588eebcd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-17 17:25:36</sys_created_on>
-        <sys_id>53f6d82e93bec210970970718bba103b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>6d671c6e93bec210970970718bba10c8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:25:36</sys_updated_on>
-        <ui_id>076ca532-238b-4573-b1f7-ff57f8f6ef20</ui_id>
+        <sys_updated_on>2024-06-17 17:32:00</sys_updated_on>
+        <ui_id>6ddc1ecf-71d4-4a64-b59a-7d30be928d2e</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=53f6d82e93bec210970970718bba103b"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=53f6d82e93bec210970970718bba103b"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=53f6d82e93bec210970970718bba103b"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=53f6d82e93bec210970970718bba103b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6d671c6e93bec210970970718bba10c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6d671c6e93bec210970970718bba10c8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>a1671c6e93bec210970970718bba10cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:23</sys_updated_on>
+        <value>752a91887740001038e286a2681061fb</value>
+        <variable display_value="Credential Alias">b09b58a877133300d4bdaeca781061ff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6d671c6e93bec210970970718bba10c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>6d671c6e93bec210970970718bba10c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>6d671c6e93bec210970970718bba10ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ce5cf2b877433300d4bdaeca781061bc</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instance_url</field>
+        <id>6d671c6e93bec210970970718bba10c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>a9671c6e93bec210970970718bba10ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ce5cf2b877433300d4bdaeca781061bc</table>
+        <value>https://{{d82ad407-3999-4081-a4a7-8d46a0680c2b.Record.value}}.service-now.com</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>progress_id</field>
+        <id>6d671c6e93bec210970970718bba10c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>21671c6e93bec210970970718bba10cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ce5cf2b877433300d4bdaeca781061bc</table>
+        <value>{{c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a.progress_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6d671c6e93bec210970970718bba10c8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6d671c6e93bec210970970718bba10c8"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -628,10 +654,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 03:44:05</sys_created_on>
         <sys_id>6f51544e93760210970970718bba10db</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>72e498e4-c7c3-4ce9-9219-f19c0afb6879</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6f51544e93760210970970718bba10db"/>
@@ -742,10 +768,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:09:49</sys_created_on>
         <sys_id>9bf4680a933a0210970970718bba108f</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>d2501a00-750f-49a4-ad88-2cd117bdc59c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9bf4680a933a0210970970718bba108f"/>
@@ -818,10 +844,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:49:29</sys_created_on>
         <sys_id>ac1ee48a937a0210970970718bba1080</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>aa5b5710-35c4-4b9e-bb8e-b129e595051a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ac1ee48a937a0210970970718bba1080"/>
@@ -894,10 +920,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-12 22:26:32</sys_created_on>
         <sys_id>b6ebeb7493fa4610970970718bba1063</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:47</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>e46def77-b020-436a-b271-54d3ab95b99b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b6ebeb7493fa4610970970718bba1063"/>
@@ -957,10 +983,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 03:43:31</sys_created_on>
         <sys_id>db31504e93760210970970718bba10be</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>d82ad407-3999-4081-a4a7-8d46a0680c2b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=db31504e93760210970970718bba10be"/>
@@ -995,8 +1021,84 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=db31504e93760210970970718bba10be"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=db31504e93760210970970718bba10be"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=db31504e93760210970970718bba10be"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="DM Install Demo App">860baffc93ba4610970970718bba10df</flow>
+        <generation_source/>
+        <order>19</order>
+        <parent_ui_id>a762f429-e584-4a11-88c6-8471588eebcd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:24</sys_created_on>
+        <sys_id>e5671c6e93bec210970970718bba10d0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:32:00</sys_updated_on>
+        <ui_id>076ca532-238b-4573-b1f7-ff57f8f6ef20</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e5671c6e93bec210970970718bba10d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e5671c6e93bec210970970718bba10d0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:24</sys_created_on>
+        <sys_id>25671c6e93bec210970970718bba10d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:24</sys_updated_on>
+        <value>x_147145_demo_mark_demo</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e5671c6e93bec210970970718bba10d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e5671c6e93bec210970970718bba10d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:24</sys_created_on>
+        <sys_id>a1671c6e93bec210970970718bba10d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{629b29a1-710c-4b75-9620-4af1a1476c1d.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e5671c6e93bec210970970718bba10d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:24</sys_created_on>
+        <sys_id>2d671c6e93bec210970970718bba10d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e5671c6e93bec210970970718bba10d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:24</sys_created_on>
+        <sys_id>ed671c6e93bec210970970718bba10d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>test_status={{6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e5671c6e93bec210970970718bba10d0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e5671c6e93bec210970970718bba10d0"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=860baffc93ba4610970970718bba10df"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=860baffc93ba4610970970718bba10df^sys_idNOT IN052d5b4e933e4210970970718bba10ce,0fa2140293b60210970970718bba1018,26915c4e93760210970970718bba1001,c12c6ff093fa4610970970718bba10dc,c53ae4ce933a0210970970718bba1009,df8090c293760210970970718bba108b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=860baffc93ba4610970970718bba10df^sys_idNOT IN052d5b4e933e4210970970718bba10ce,0fa2140293b60210970970718bba1018,26915c4e93760210970970718bba1001,757710ae93bec210970970718bba102c,99671c6e93bec210970970718bba1045,c12c6ff093fa4610970970718bba10dc,c53ae4ce933a0210970970718bba1009,df8090c293760210970970718bba108b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">15addfce933e4210970970718bba1089</block>
@@ -1021,10 +1123,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 18:34:23</sys_created_on>
         <sys_id>052d5b4e933e4210970970718bba10ce</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:32:00</sys_updated_on>
         <ui_id>a5ae7e1e-132d-492f-977a-28e87f11b04f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1095,10 +1197,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 03:49:47</sys_created_on>
         <sys_id>0fa2140293b60210970970718bba1018</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>1bbb3f82-d3bf-4648-90d4-9de5f417995a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1160,10 +1262,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 03:45:07</sys_created_on>
         <sys_id>26915c4e93760210970970718bba1001</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>c10b2ec4-b7a6-4777-a24d-81d3a6bbc19b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1213,6 +1315,145 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=26915c4e93760210970970718bba1001"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
+        <block display_value="">3168dcee93bec210970970718bba10a4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DM Install Demo App">860baffc93ba4610970970718bba10df</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a762f429-e584-4a11-88c6-8471588eebcd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:41</sys_created_on>
+        <sys_id>757710ae93bec210970970718bba102c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:32:00</sys_updated_on>
+        <ui_id>3f8dcfa2-72c1-4f82-ae6a-670eac92972a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=757710ae93bec210970970718bba102c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>757710ae93bec210970970718bba102c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:45</sys_created_on>
+        <sys_id>767710ae93bec210970970718bba109e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:45</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>757710ae93bec210970970718bba102c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:41</sys_created_on>
+        <sys_id>7d7710ae93bec210970970718bba102f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:41</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=757710ae93bec210970970718bba102c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_860baffc93ba4610970970718bba10df^id=757710ae93bec210970970718bba102c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=757710ae93bec210970970718bba102c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=757710ae93bec210970970718bba102c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5d671c6e93bec210970970718bba1044</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DM Install Demo App">860baffc93ba4610970970718bba10df</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ee1d6269-c21b-4ee4-803b-ca4d7e373b55</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>99671c6e93bec210970970718bba1045</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:32:00</sys_updated_on>
+        <ui_id>a762f429-e584-4a11-88c6-8471588eebcd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=99671c6e93bec210970970718bba1045"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>99671c6e93bec210970970718bba1045</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>19671c6e93bec210970970718bba1055</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:23</sys_updated_on>
+        <value>Status is either Successful, Failed, or Cancelled</value>
+        <variable display_value="Condition Label">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=99671c6e93bec210970970718bba1045"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>99671c6e93bec210970970718bba1045</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>95671c6e93bec210970970718bba1055</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label}}=Successful^NQ{{6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label}}=Failed ^NQ{{6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label}}=Cancelled</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>99671c6e93bec210970970718bba1045</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:27:23</sys_created_on>
+        <sys_id>dd671c6e93bec210970970718bba1054</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:27:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_860baffc93ba4610970970718bba10df^id=99671c6e93bec210970970718bba1045"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=99671c6e93bec210970970718bba1045"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=99671c6e93bec210970970718bba1045"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">9b2c2f7493fa4610970970718bba1068</block>
         <comment/>
         <connected_to/>
@@ -1235,10 +1476,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-12 22:27:31</sys_created_on>
         <sys_id>c12c6ff093fa4610970970718bba10dc</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:47</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>759bb772-7070-4b14-88a4-565e838ba611</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1284,10 +1525,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:32:36</sys_created_on>
         <sys_id>c53ae4ce933a0210970970718bba1009</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:48</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>196d392c-b3ef-433c-a99d-52d9884ab67a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1332,10 +1573,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 03:40:31</sys_created_on>
         <sys_id>df8090c293760210970970718bba108b</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:47</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
         <ui_id>ee1d6269-c21b-4ee4-803b-ca4d7e373b55</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1472,7 +1713,7 @@
         <description>Install a Demo App from GitHub.</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>dm_install_demo_app</internal_name>
-        <label_cache>[{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.version","label":"3 - Look Up Record➛Demo Record➛Installed Version","reference":"","reference_display":"Installed Version","type":"string","base_type":"string","parent_table_name":"x_147145_demo_mark_demo","column_name":"version","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["previous_version"],"55655745-1802-4947-ad55-861550f4996e":["previous_version"],"7a0fc018-6849-491c-b271-f819f06bdba0":["previous_version"]}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record","label":"3 - Look Up Record➛Demo Record","reference":"x_147145_demo_mark_demo","reference_display":"Demo","type":"reference","base_type":"reference","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["record"],"7cf8c1e3-755e-4b8a-887a-961ad07c7789":["record"],"aa5b5710-35c4-4b9e-bb8e-b129e595051a":["record"],"55655745-1802-4947-ad55-861550f4996e":["record"],"dca56d51-a3d3-4b6e-a584-9cf2a65ace38":["record"],"7a0fc018-6849-491c-b271-f819f06bdba0":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2501a00-750f-49a4-ad88-2cd117bdc59c.status_label","label":"9 - Get Execution Tracker Progress➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","usedInstances":{"196d392c-b3ef-433c-a99d-52d9884ab67a":["status-0"],"3d0a0fd4-0f10-4fb7-bb1f-127142b6b9bd":["condition"],"c10b2ec4-b7a6-4777-a24d-81d3a6bbc19b":["condition"],"aa5b5710-35c4-4b9e-bb8e-b129e595051a":["status"],"edb95030-9412-469a-a258-33f678b511a4":["condition"],"9706d3ec-5b4d-4c44-b936-028e9d32c560":["condition"],"a5ae7e1e-132d-492f-977a-28e87f11b04f":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d4e47a49-950f-4026-b9be-8a55ff5c8ca5"}},{"name":"72e498e4-c7c3-4ce9-9219-f19c0afb6879.progress_id","label":"6 - Import Application with Repo URL➛Progress Id","reference_display":"Progress Id","type":"string","base_type":"string","usedInstances":{"d2501a00-750f-49a4-ad88-2cd117bdc59c":["progress_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5de9ba0b-7710-4cf1-8c84-5c4068e048d6"}},{"name":"e46def77-b020-436a-b271-54d3ab95b99b.Record.demo.name","label":"1 - Look Up Record➛Versions Record➛Demo➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","usedInstances":{"629b29a1-710c-4b75-9620-4af1a1476c1d":["conditions"]}},{"name":"subflow.name","label":"Input➛Name","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{}},{"name":"subflow.version","label":"Input➛Version","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["version"],"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["branch_name"],"e46def77-b020-436a-b271-54d3ab95b99b":["conditions"],"55655745-1802-4947-ad55-861550f4996e":["values","version"],"7a0fc018-6849-491c-b271-f819f06bdba0":["version"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6754c1b8-7ed3-471d-be8c-56eb8e2f6e70","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"e46def77-b020-436a-b271-54d3ab95b99b.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"759bb772-7070-4b14-88a4-565e838ba611":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"d82ad407-3999-4081-a4a7-8d46a0680c2b.Record.value","label":"5 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["instance_url"],"d2501a00-750f-49a4-ad88-2cd117bdc59c":["instance_url"],"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a":["instance_url"]}},{"name":"72e498e4-c7c3-4ce9-9219-f19c0afb6879.status_label","label":"6 - Import Application with Repo URL➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","usedInstances":{},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ed8d4ae9-9299-4703-8951-363e2a6e623b"}},{"name":"subflow.demo","label":"Input➛Demo","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["repo_url"],"e46def77-b020-436a-b271-54d3ab95b99b":["conditions"],"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a":["test_suite_name"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"552c3b63-f533-4bee-9cb5-3bcdd77f787a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.installed","label":"3 - Look Up Record➛Demo Record➛Installed","reference":"","reference_display":"Installed","type":"boolean","base_type":"boolean","usedInstances":{"ee1d6269-c21b-4ee4-803b-ca4d7e373b55":["condition"]}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.repository_url","label":"3 - Look Up Record➛Demo Record➛Repository URL","reference":"","reference_display":"Repository URL","type":"string","base_type":"string","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["repo_url"]}}]</label_cache>
+        <label_cache>[{"name":"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label","label":"18 - Get Execution Tracker Progress➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","usedInstances":{"076ca532-238b-4573-b1f7-ff57f8f6ef20":["test_status"],"a762f429-e584-4a11-88c6-8471588eebcd":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d4e47a49-950f-4026-b9be-8a55ff5c8ca5"}},{"name":"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a.progress_id","label":"15 - Start ATF Suite With Name➛Progress Id","reference_display":"Progress Id","type":"string","base_type":"string","usedInstances":{"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e":["progress_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a969b8d6-c866-4218-b506-651af604e431"}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.version","label":"3 - Look Up Record➛Demo Record➛Installed Version","reference":"","reference_display":"Installed Version","type":"string","base_type":"string","parent_table_name":"x_147145_demo_mark_demo","column_name":"version","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["previous_version"],"55655745-1802-4947-ad55-861550f4996e":["previous_version"],"7a0fc018-6849-491c-b271-f819f06bdba0":["previous_version"]}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record","label":"3 - Look Up Record➛Demo Record","reference":"x_147145_demo_mark_demo","reference_display":"Demo","type":"reference","base_type":"reference","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["record"],"7cf8c1e3-755e-4b8a-887a-961ad07c7789":["record"],"aa5b5710-35c4-4b9e-bb8e-b129e595051a":["record"],"55655745-1802-4947-ad55-861550f4996e":["record"],"dca56d51-a3d3-4b6e-a584-9cf2a65ace38":["record"],"7a0fc018-6849-491c-b271-f819f06bdba0":["record"],"076ca532-238b-4573-b1f7-ff57f8f6ef20":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d2501a00-750f-49a4-ad88-2cd117bdc59c.status_label","label":"9 - Get Execution Tracker Progress➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","usedInstances":{"196d392c-b3ef-433c-a99d-52d9884ab67a":["status-0"],"3d0a0fd4-0f10-4fb7-bb1f-127142b6b9bd":["condition"],"c10b2ec4-b7a6-4777-a24d-81d3a6bbc19b":["condition"],"aa5b5710-35c4-4b9e-bb8e-b129e595051a":["status"],"edb95030-9412-469a-a258-33f678b511a4":["condition"],"9706d3ec-5b4d-4c44-b936-028e9d32c560":["condition"],"a5ae7e1e-132d-492f-977a-28e87f11b04f":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d4e47a49-950f-4026-b9be-8a55ff5c8ca5"}},{"name":"72e498e4-c7c3-4ce9-9219-f19c0afb6879.progress_id","label":"6 - Import Application with Repo URL➛Progress Id","reference_display":"Progress Id","type":"string","base_type":"string","usedInstances":{"d2501a00-750f-49a4-ad88-2cd117bdc59c":["progress_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5de9ba0b-7710-4cf1-8c84-5c4068e048d6"}},{"name":"e46def77-b020-436a-b271-54d3ab95b99b.Record.demo.name","label":"1 - Look Up Record➛Versions Record➛Demo➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","usedInstances":{"629b29a1-710c-4b75-9620-4af1a1476c1d":["conditions"]}},{"name":"subflow.name","label":"Input➛Name","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{}},{"name":"subflow.version","label":"Input➛Version","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ec977e26-1814-4be0-b4cd-52dc8b5edf93":["version"],"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["branch_name"],"e46def77-b020-436a-b271-54d3ab95b99b":["conditions"],"55655745-1802-4947-ad55-861550f4996e":["values","version"],"7a0fc018-6849-491c-b271-f819f06bdba0":["version"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6754c1b8-7ed3-471d-be8c-56eb8e2f6e70","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"e46def77-b020-436a-b271-54d3ab95b99b.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"759bb772-7070-4b14-88a4-565e838ba611":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"d82ad407-3999-4081-a4a7-8d46a0680c2b.Record.value","label":"5 - Look Up Record➛System Property Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sys_properties","column_name":"value","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["instance_url"],"d2501a00-750f-49a4-ad88-2cd117bdc59c":["instance_url"],"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a":["instance_url"],"6ddc1ecf-71d4-4a64-b59a-7d30be928d2e":["instance_url"]}},{"name":"72e498e4-c7c3-4ce9-9219-f19c0afb6879.status_label","label":"6 - Import Application with Repo URL➛Status Label","reference_display":"Status Label","type":"string","base_type":"string","usedInstances":{},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ed8d4ae9-9299-4703-8951-363e2a6e623b"}},{"name":"subflow.demo","label":"Input➛Demo","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["repo_url"],"e46def77-b020-436a-b271-54d3ab95b99b":["conditions"],"c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a":["test_suite_name"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"552c3b63-f533-4bee-9cb5-3bcdd77f787a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.installed","label":"3 - Look Up Record➛Demo Record➛Installed","reference":"","reference_display":"Installed","type":"boolean","base_type":"boolean","usedInstances":{"ee1d6269-c21b-4ee4-803b-ca4d7e373b55":["condition"]}},{"name":"629b29a1-710c-4b75-9620-4af1a1476c1d.Record.repository_url","label":"3 - Look Up Record➛Demo Record➛Repository URL","reference":"","reference_display":"Repository URL","type":"string","base_type":"string","usedInstances":{"72e498e4-c7c3-4ce9-9219-f19c0afb6879":["repo_url"]}}]</label_cache>
         <master>true</master>
         <name>DM Install Demo App</name>
         <natlang/>
@@ -1489,7 +1730,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7f26c82933a0210970970718bba109c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1497,7 +1738,7 @@
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=d7f26c82933a0210970970718bba109c"/>
@@ -1773,7 +2014,83 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=998a6006937a0210970970718bba1000"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d7f26c82933a0210970970718bba109c"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=d7f26c82933a0210970970718bba109c^sys_idNOT IN2bf26c82933a0210970970718bba10e2,33f2ac82933a0210970970718bba1002,698a6006937a0210970970718bba104a,6ff26c82933a0210970970718bba10f8,8f3e600e937a0210970970718bba10ee,bff2ac82933a0210970970718bba103a,dead5302937e4210970970718bba106b,f6f1dcae937ec210970970718bba107c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d7f26c82933a0210970970718bba109c^sys_idNOT IN2768902293fec210970970718bba1031,2bf26c82933a0210970970718bba10e2,33f2ac82933a0210970970718bba1002,698a6006937a0210970970718bba104a,6ff26c82933a0210970970718bba10f8,8f3e600e937a0210970970718bba10ee,9768902293fec210970970718bba1028,bff2ac82933a0210970970718bba103a,dead5302937e4210970970718bba106b,f6f1dcae937ec210970970718bba107c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="DM Install Demo App">d7f26c82933a0210970970718bba109c</flow>
+        <generation_source/>
+        <order>19</order>
+        <parent_ui_id>a762f429-e584-4a11-88c6-8471588eebcd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>2768902293fec210970970718bba1031</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
+        <ui_id>076ca532-238b-4573-b1f7-ff57f8f6ef20</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2768902293fec210970970718bba1031"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2768902293fec210970970718bba1031</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>6368902293fec210970970718bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <value>x_147145_demo_mark_demo</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2768902293fec210970970718bba1031"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2768902293fec210970970718bba1031</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>ef68902293fec210970970718bba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{629b29a1-710c-4b75-9620-4af1a1476c1d.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2768902293fec210970970718bba1031</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>6b68902293fec210970970718bba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2768902293fec210970970718bba1031</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>2f68902293fec210970970718bba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>test_status={{6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2768902293fec210970970718bba1031"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2768902293fec210970970718bba1031"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1790,10 +2107,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:01:06</sys_created_on>
         <sys_id>2bf26c82933a0210970970718bba10e2</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
         <ui_id>e46def77-b020-436a-b271-54d3ab95b99b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2bf26c82933a0210970970718bba10e2"/>
@@ -1853,10 +2170,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:01:06</sys_created_on>
         <sys_id>33f2ac82933a0210970970718bba1002</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>d82ad407-3999-4081-a4a7-8d46a0680c2b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33f2ac82933a0210970970718bba1002"/>
@@ -1907,10 +2224,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:34:00</sys_created_on>
         <sys_id>698a6006937a0210970970718bba104a</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>d2501a00-750f-49a4-ad88-2cd117bdc59c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=698a6006937a0210970970718bba104a"/>
@@ -1983,10 +2300,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:01:06</sys_created_on>
         <sys_id>6ff26c82933a0210970970718bba10f8</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
         <ui_id>629b29a1-710c-4b75-9620-4af1a1476c1d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6ff26c82933a0210970970718bba10f8"/>
@@ -2047,10 +2364,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:50:12</sys_created_on>
         <sys_id>8f3e600e937a0210970970718bba10ee</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>aa5b5710-35c4-4b9e-bb8e-b129e595051a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8f3e600e937a0210970970718bba10ee"/>
@@ -2110,6 +2427,82 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Get Execution Tracker Progress">ce5cf2b877433300d4bdaeca781061bc</action_type>
+        <action_type_parent display_value="Get Execution Tracker Progress">f8073ef477433300d4bdaeca78106176</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="DM Install Demo App">d7f26c82933a0210970970718bba109c</flow>
+        <generation_source/>
+        <order>18</order>
+        <parent_ui_id>a762f429-e584-4a11-88c6-8471588eebcd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:53</sys_created_on>
+        <sys_id>9768902293fec210970970718bba1028</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
+        <ui_id>6ddc1ecf-71d4-4a64-b59a-7d30be928d2e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9768902293fec210970970718bba1028"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9768902293fec210970970718bba1028</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:53</sys_created_on>
+        <sys_id>df68902293fec210970970718bba102a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:53</sys_updated_on>
+        <value>752a91887740001038e286a2681061fb</value>
+        <variable display_value="Credential Alias">b09b58a877133300d4bdaeca781061ff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9768902293fec210970970718bba1028"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>9768902293fec210970970718bba1028</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:53</sys_created_on>
+        <sys_id>9b68902293fec210970970718bba102a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ce5cf2b877433300d4bdaeca781061bc</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instance_url</field>
+        <id>9768902293fec210970970718bba1028</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:53</sys_created_on>
+        <sys_id>d368902293fec210970970718bba102a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ce5cf2b877433300d4bdaeca781061bc</table>
+        <value>https://{{d82ad407-3999-4081-a4a7-8d46a0680c2b.Record.value}}.service-now.com</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>progress_id</field>
+        <id>9768902293fec210970970718bba1028</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:53</sys_created_on>
+        <sys_id>5f68902293fec210970970718bba102a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ce5cf2b877433300d4bdaeca781061bc</table>
+        <value>{{c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a.progress_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9768902293fec210970970718bba1028"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9768902293fec210970970718bba1028"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Import Application with Repo URL">b97accea87513010bec6068046cb0bb2</action_type>
         <action_type_parent display_value="Import Application from Source Control">ab2b307087513010bec6068046cb0b30</action_type_parent>
         <attributes/>
@@ -2123,10 +2516,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:01:06</sys_created_on>
         <sys_id>bff2ac82933a0210970970718bba103a</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>72e498e4-c7c3-4ce9-9219-f19c0afb6879</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bff2ac82933a0210970970718bba103a"/>
@@ -2237,10 +2630,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 18:36:39</sys_created_on>
         <sys_id>dead5302937e4210970970718bba106b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>7a0fc018-6849-491c-b271-f819f06bdba0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dead5302937e4210970970718bba106b"/>
@@ -2313,10 +2706,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-17 17:03:43</sys_created_on>
         <sys_id>f6f1dcae937ec210970970718bba107c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>c9b34745-c5bf-4cd9-a0c6-d36b8ca47c3a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f6f1dcae937ec210970970718bba107c"/>
@@ -2374,7 +2767,82 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=f6f1dcae937ec210970970718bba107c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f6f1dcae937ec210970970718bba107c"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d7f26c82933a0210970970718bba109c"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=d7f26c82933a0210970970718bba109c^sys_idNOT IN3d8a6006937a0210970970718bba1085,62ad5302937e4210970970718bba10aa,a7f26c82933a0210970970718bba10c6,a7f26c82933a0210970970718bba10ce,ebf26c82933a0210970970718bba10ca,eff26c82933a0210970970718bba10d2"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d7f26c82933a0210970970718bba109c^sys_idNOT IN2f68902293fec210970970718bba105c,3d8a6006937a0210970970718bba1085,62ad5302937e4210970970718bba10aa,a7f26c82933a0210970970718bba10c6,a7f26c82933a0210970970718bba10ce,af68902293fec210970970718bba1060,ebf26c82933a0210970970718bba10ca,eff26c82933a0210970970718bba10d2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5d671c6e93bec210970970718bba1044</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DM Install Demo App">d7f26c82933a0210970970718bba109c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ee1d6269-c21b-4ee4-803b-ca4d7e373b55</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>2f68902293fec210970970718bba105c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
+        <ui_id>a762f429-e584-4a11-88c6-8471588eebcd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2f68902293fec210970970718bba105c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2f68902293fec210970970718bba105c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>ef68902293fec210970970718bba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <value>Status is either Successful, Failed, or Cancelled</value>
+        <variable display_value="Condition Label">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f68902293fec210970970718bba105c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2f68902293fec210970970718bba105c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>6f68902293fec210970970718bba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label}}=Successful^NQ{{6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label}}=Failed ^NQ{{6ddc1ecf-71d4-4a64-b59a-7d30be928d2e.status_label}}=Cancelled</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>2f68902293fec210970970718bba105c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>ab68902293fec210970970718bba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_d7f26c82933a0210970970718bba109c^id=2f68902293fec210970970718bba105c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2f68902293fec210970970718bba105c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2f68902293fec210970970718bba105c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">6c8aecc2937a0210970970718bba10aa</block>
@@ -2399,10 +2867,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:34:00</sys_created_on>
         <sys_id>3d8a6006937a0210970970718bba1085</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>196d392c-b3ef-433c-a99d-52d9884ab67a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2447,10 +2915,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 18:36:40</sys_created_on>
         <sys_id>62ad5302937e4210970970718bba10aa</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>a5ae7e1e-132d-492f-977a-28e87f11b04f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2522,10 +2990,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:01:05</sys_created_on>
         <sys_id>a7f26c82933a0210970970718bba10c6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
         <ui_id>759bb772-7070-4b14-88a4-565e838ba611</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2571,10 +3039,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:01:05</sys_created_on>
         <sys_id>a7f26c82933a0210970970718bba10ce</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>c10b2ec4-b7a6-4777-a24d-81d3a6bbc19b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2624,6 +3092,70 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=a7f26c82933a0210970970718bba10ce"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
+        <block display_value="">3168dcee93bec210970970718bba10a4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="DM Install Demo App">d7f26c82933a0210970970718bba109c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a762f429-e584-4a11-88c6-8471588eebcd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>af68902293fec210970970718bba1060</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
+        <ui_id>3f8dcfa2-72c1-4f82-ae6a-670eac92972a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=af68902293fec210970970718bba1060"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>af68902293fec210970970718bba1060</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>2368902293fec210970970718bba1065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>af68902293fec210970970718bba1060</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 17:31:54</sys_created_on>
+        <sys_id>e368902293fec210970970718bba1065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 17:31:54</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=af68902293fec210970970718bba1060"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_d7f26c82933a0210970970718bba109c^id=af68902293fec210970970718bba1060"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=af68902293fec210970970718bba1060"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=af68902293fec210970970718bba1060"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">faf22c82933a0210970970718bba10d9</block>
         <comment/>
         <connected_to/>
@@ -2646,10 +3178,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:01:05</sys_created_on>
         <sys_id>ebf26c82933a0210970970718bba10ca</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>ee1d6269-c21b-4ee4-803b-ca4d7e373b55</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2720,10 +3252,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-16 05:01:05</sys_created_on>
         <sys_id>eff26c82933a0210970970718bba10d2</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Demohub Marketplace">c29ada6c93328210970970718bba1069</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:44</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:55</sys_updated_on>
         <ui_id>1bbb3f82-d3bf-4648-90d4-9de5f417995a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2844,7 +3376,7 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=860baffc93ba4610970970718bba10df"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=860baffc93ba4610970970718bba10df^sys_idNOT INc803ac82933a0210970970718bba10b5"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@3f90cd2</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@465e154d</plan>
         <plan_id display_value="DM Install Demo App">860baffc93ba4610970970718bba10df</plan_id>
         <snapshot>d7f26c82933a0210970970718bba109c</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -2852,10 +3384,10 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c803ac82933a0210970970718bba10b5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 17:03:47</sys_updated_on>
+        <sys_updated_on>2024-06-17 17:31:59</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
