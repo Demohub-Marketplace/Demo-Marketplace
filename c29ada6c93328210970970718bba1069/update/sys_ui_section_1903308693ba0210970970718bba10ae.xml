@@ -4,13 +4,13 @@
             <element>installed</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-16 06:13:03</sys_created_on>
-            <sys_id>2d73bc8693ba0210970970718bba1095</sys_id>
+            <sys_created_on>2024-06-17 17:13:14</sys_created_on>
+            <sys_id>12245c2693bec210970970718bba1089</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Installation Status" display_value="Installation Status" name="x_147145_demo_mark_demo" sys_domain="global" view="Default view">1903308693ba0210970970718bba10ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-16 06:13:03</sys_updated_on>
+            <sys_updated_on>2024-06-17 17:13:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,27 @@
             <element>status</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-16 06:13:03</sys_created_on>
-            <sys_id>a173bc8693ba0210970970718bba1096</sys_id>
+            <sys_created_on>2024-06-17 17:13:14</sys_created_on>
+            <sys_id>96245c2693bec210970970718bba1089</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Installation Status" display_value="Installation Status" name="x_147145_demo_mark_demo" sys_domain="global" view="Default view">1903308693ba0210970970718bba10ae</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-16 06:13:03</sys_updated_on>
+            <sys_updated_on>2024-06-17 17:13:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>test_status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 17:13:14</sys_created_on>
+            <sys_id>1e245c2693bec210970970718bba1089</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Installation Status" display_value="Installation Status" name="x_147145_demo_mark_demo" sys_domain="global" view="Default view">1903308693ba0210970970718bba10ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 17:13:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
